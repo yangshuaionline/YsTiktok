@@ -8,3 +8,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "YsTiktok"
 include ':app'
+include ':base'
+include ':module_main'
+include ':library_video'
+include ':library_constant'

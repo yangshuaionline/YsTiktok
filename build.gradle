@@ -16,3 +16,24 @@ buildscript {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext{
+    /**
+     * 配置
+     * */
+    application_id = "com.yangshuai.ystiktok"//包名
+    compile_sdk_version = 33//软件编写版本
+    target_sdk_version = 33//最高支持版本
+    min_sdk_version = 16//最低支持版本
+    version_code = 1//软件版本号
+    version_name = "1.0"//软件版本名称
+    kotlin_options_jvm_target = "1.8"//kotlin的jvm编译版本
+    /**
+     * 依赖库
+     * */
+    appcompat_version = "1.2.0"//Android基础库
+    constraint_layout_version = "2.0.4"//ConstraintLayout依赖库
+    junit_version = "4.13.2"//junit测试库
+    runner_version = "1.0.2"//单元测试依赖库
+    espresso_core_version = "4.12"//单元测试依赖库
+}
