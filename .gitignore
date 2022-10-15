@@ -1,0 +1,14 @@
+# android专属配置
+# 忽略当前目录下的
+.gradle/
+.idea/
+gradle/
+# 忽略所有同名文件
+*build/
+*androidTest/
+*test/
+*gradlew
+*gradlew.bat
+*local.properties
+*.apk
+*.jks
