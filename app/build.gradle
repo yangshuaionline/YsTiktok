@@ -11,6 +11,7 @@ android {
         targetSdk rootProject.ext.target_sdk_version
         versionCode rootProject.ext.version_code
         versionName rootProject.ext.version_name
+        multiDexEnabled rootProject.ext.multi_dex_enabled
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
@@ -31,4 +32,6 @@ android {
 
 dependencies {
     implementation project(':module_main')
+    //导入flutter
+    implementation project(':flutter')
 }

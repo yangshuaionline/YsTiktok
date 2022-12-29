@@ -27,6 +27,7 @@ ext{
     min_sdk_version = 16//最低支持版本
     version_code = 1//软件版本号
     version_name = "1.0"//软件版本名称
+    multi_dex_enabled = true//65536
     kotlin_options_jvm_target = "1.8"//kotlin的jvm编译版本
     /**
      * 依赖库
